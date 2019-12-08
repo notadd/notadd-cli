@@ -1,11 +1,13 @@
-# `core`
+## @notadd/cli
 
-> TODO: description
 
-## Usage
-
+install
+```sh
+npm i -g @notadd/cli
 ```
-const core = require('core');
 
-// TODO: DEMONSTRATE API
+create @nestjs/graphql .graphql file
+
+```sh
+notadd graphql -i main.ts -o notadd.graphql
 ```
