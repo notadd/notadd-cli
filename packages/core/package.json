@@ -32,7 +32,7 @@
         "url": "https://github.com/meepobrother/magnus-cli/issues"
     },
     "dependencies": {
-        "@nger/ast.ts-graphql": "^1.0.5",
+        "@nger/ast.ts-graphql": "^1.0.6",
         "@nger/cli": "^1.0.0",
         "@types/fs-extra": "^8.0.1",
         "fs-extra": "^8.1.0"
