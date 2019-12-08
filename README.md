@@ -1,5 +1,5 @@
 ## @notadd/cli
-> help nestjs graphql project create .graphql 
+> a simple tool to generate graphql for @nestjs/graphql
 
 ##### install
 
