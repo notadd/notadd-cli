@@ -1,9 +1,9 @@
 {
     "name": "@notadd/cli",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "> TODO: description",
     "author": "imeepos <1037483576@qq.com>",
-    "homepage": "https://github.com/meepobrother/magnus-cli#readme",
+    "homepage": "https://github.com/notadd/notadd-cli#readme",
     "license": "ISC",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
@@ -23,13 +23,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/meepobrother/magnus-cli.git"
+        "url": "git+https://github.com/notadd/notadd-cli.git"
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
-        "url": "https://github.com/meepobrother/magnus-cli/issues"
+        "url": "https://github.com/notadd/notadd-cli/issues"
     },
     "dependencies": {
         "@nger/ast.ts-graphql": "^1.1.3",

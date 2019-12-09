@@ -1,15 +1,14 @@
-English | [简体中文](README_ZH.md)
+[English](README.md) | 简体中文
 
+## 功能特点
 
-## Features
-
-- Pure typescript generation, no need to maintain graphql files
-- No dependencies
+- 纯 Typescript 生成，无需维护 graphql 文件
+- 无依赖
 
 ## TODO
 
-- [ ] Supports simultaneous generation of proto files (for grpc)    
-- [ ] Support webapck package release
+- [ ] 支持同时生成 proto 文件（grpc 用）    
+- [ ] 支持 webapck 打包发布
 
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
