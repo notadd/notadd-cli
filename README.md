@@ -8,8 +8,8 @@ English | [简体中文](README_zh.md)
 
 ## TODO
 
-[ ] Supports simultaneous generation of proto files (for grpc)
-[ ] Support webapck package release
+- [ ] Supports simultaneous generation of proto files (for grpc)    
+- [ ] Support webapck package release
 
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
