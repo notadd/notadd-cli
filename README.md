@@ -1,3 +1,10 @@
+English|[简体中文](README_zh.md)
+
+
+## TODO
+
+[ ] Typescript 
+
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
 
