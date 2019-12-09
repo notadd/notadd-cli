@@ -7,8 +7,8 @@
 
 ## TODO
 
-[ ] 支持同时生成 proto 文件（grpc 用）
-[ ] 支持 webapck 打包发布
+- [ ] 支持同时生成 proto 文件（grpc 用）    
+- [ ] 支持 webapck 打包发布
 
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
