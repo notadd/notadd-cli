@@ -24,8 +24,8 @@ export class GraphqlCommand {
             ensureDirSync(dirname(output))
             const graphql = toGraphql(join(root, this.input));
             writeFileSync(output, graphql)
-        } catch (e) { 
-            console.log(`${e.message}`)
+        } catch (e) {
+            console.log(`${e.message}`, e)
         }
     }
 }
