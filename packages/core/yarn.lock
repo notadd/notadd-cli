@@ -770,10 +770,10 @@
   dependencies:
     "@nger/decorator" "^1.1.13"
 
-"@nger/webpack@^0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@nger/webpack/-/webpack-0.0.19.tgz#ca2aa978b525844f57e5c91c941c10bee3d94afd"
-  integrity sha512-TR/7g1/WgZo1h3rsMYcPGXYwnlC359v6vMdDeiCRYVuY2fXyV66XFVxYzjgoBC4xmKTm9jngqM/4mlFQ1IrS9w==
+"@nger/webpack@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@nger/webpack/-/webpack-0.0.20.tgz#36a123e51e6c2289415296b6c7b4524eeeef3bef"
+  integrity sha512-5SbNjMj/vX86+pxzIWL6zvfmkTmSJenRsftrG9JMaFB0n2sJbPkqT6R37dKeW1bZFZlV6mFqF9whUUxA/rkILQ==
   dependencies:
     "@babel/core" "^7.7.7"
     "@babel/plugin-proposal-async-generator-functions" "^7.7.4"
