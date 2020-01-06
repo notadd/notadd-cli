@@ -19,7 +19,7 @@ export class GraphqlCommand {
             const root = process.cwd()
             const output = join(root, this.output);
             ensureDirSync(dirname(output))
-            const graphql = toGraphql(this.injector.get<string>(MAIN_PATH));
+            const graphql = toGraphql(this.injector.get<string>(MAIN_PATH, 'main.ts') || 'main.ts');
             writeFileSync(output, graphql)
         } catch (e) {
             console.log(`${e.message}`, e)
