@@ -17,7 +17,7 @@ export class GraphqlCommand {
     createGraphql() {
         try {
             const root = process.cwd()
-            const output = join(root, this.output);
+            const output = join(root, this.output || 'notadd.graphql');
             ensureDirSync(dirname(output))
             const graphql = toGraphql(this.injector.get<string>(MAIN_PATH, 'main.ts') || 'main.ts');
             writeFileSync(output, graphql)
