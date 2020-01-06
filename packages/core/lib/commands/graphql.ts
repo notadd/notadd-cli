@@ -2,27 +2,24 @@ import { Command, Option, Action } from '@nger/cli';
 import { toGraphql } from '@nger/ast.ts-graphql';
 import { join, dirname } from 'path';
 import { ensureDirSync, writeFileSync } from 'fs-extra';
+import { Injector, MAIN_PATH } from '@nger/core';
 @Command({
     name: 'graphql'
 })
 export class GraphqlCommand {
+    constructor(public injector: Injector) { }
     @Option({
-        alias: 'i',
-        defaultValue: `main.ts`
-    })
-    input: string = 'main.ts';
-    @Option({
-        alias: 'o',
-        defaultValue: `notadd.graphql`
+        alias: 'o'
     })
     output: string = 'notadd.graphql';
+
     @Action()
     createGraphql() {
         try {
             const root = process.cwd()
             const output = join(root, this.output);
             ensureDirSync(dirname(output))
-            const graphql = toGraphql(join(root, this.input));
+            const graphql = toGraphql(this.injector.get<string>(MAIN_PATH));
             writeFileSync(output, graphql)
         } catch (e) {
             console.log(`${e.message}`, e)

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import { createPlatform } from '@nger/cli';
-import { GraphqlCommand } from './commands/graphql'
-createPlatform([GraphqlCommand]).run()
+import { NotaddCliModule } from "./cli.module";
+import { platformCli } from "@nger/cli";
+
+platformCli().bootstrapModule(NotaddCliModule)

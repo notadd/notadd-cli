@@ -9,7 +9,7 @@ English | [简体中文](README_zh.md)
 ## TODO
 
 - [ ] Supports simultaneous generation of proto files (for grpc)    
-- [ ] Support webapck package release
+- [ x ] Support webapck package release
 
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
@@ -26,6 +26,16 @@ npm i -g @notadd/cli
 notadd graphql 
     -i main.ts // input file default `main.ts`
     -o notadd.graphql // output file default `notadd.graphql`
+```
+
+## 打包nodejs
+### 开发模式
+```
+notadd build --watch
+```
+### 生产模式
+```ts
+notadd build --prod
 ```
 
 ##### demo.ts and run `notadd graphql`
