@@ -22,23 +22,25 @@ npm i -g @notadd/cli
 
 ##### use
 
-```ts
-notadd graphql 
-    -i main.ts // input file default `main.ts`
-    -o notadd.graphql // output file default `notadd.graphql`
-```
 
-## 打包nodejs
-### 开发模式
+## package nodejs project
+
+### dev mode
 ```
-notadd build --watch
+notadd build --dev
 ```
-### 生产模式
+### prod mode
 ```ts
 notadd build --prod
 ```
 
-##### demo.ts and run `notadd graphql`
+```ts
+notadd graphql 
+    --main main.ts // input file default `main.ts`
+    --output notadd.graphql // output file default `notadd.graphql`
+```
+
+## 生成graphql文件
 
 ```ts
 import { Resolver, Query } from "@nestjs/graphql";
