@@ -1,43 +1,49 @@
-[English](README.md) | 简体中文
 
-## 功能特点
 
-- 纯 Typescript 生成，无需维护 graphql 文件
-- 无依赖
+English | [简体中文](README.md)
+
+
+## Features
+
+- Pure typescript generation, no need to maintain graphql files
+- No dependencies
 
 ## TODO
 
-- [ ] 支持同时生成 proto 文件（grpc 用）    
-- [x] 支持 webapck 打包发布
+- [ ] Supports simultaneous generation of proto files (for grpc)    
+- [x] Support webapck package release
 
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
 
-##### install
+### install
 
 ```sh
 npm i -g @notadd/cli
 ```
 
-##### build nodejs project
-生产模式
-```
-notadd build --prod
-```
-开发模式
+## build
+
+## build nodejs project
+
+### dev mode
 ```
 notadd build --dev
 ```
+### prod mode
+```ts
+notadd build --prod
+```
 
-##### use
+## graphql
 
 ```ts
 notadd graphql 
-    -i main.ts // input file default `main.ts`
-    -o notadd.graphql // output file default `notadd.graphql`
+    --main main.ts // input file default `main.ts`
+    --output notadd.graphql // output file default `notadd.graphql`
 ```
 
-##### demo.ts and run `notadd graphql`
+## create graphql file
 
 ```ts
 import { Resolver, Query } from "@nestjs/graphql";
