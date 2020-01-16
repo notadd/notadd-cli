@@ -12,9 +12,9 @@
 - [x] 支持 webapck 打包发布
 
 ## @notadd/cli
-> a simple tool to generate graphql for @nestjs/graphql
+> 一个轻量级的生成.graphql文件的工具
 
-##### install
+##### 安装
 
 ```sh
 npm i -g @notadd/cli
