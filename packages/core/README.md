@@ -11,6 +11,14 @@ English | [简体中文](README_ZH.md)
 - [ ] Supports simultaneous generation of proto files (for grpc)    
 - [ ] Support webapck package release
 
+## WARNING
+- entry main ts like this, not support async/await
+```
+NestFactory.create(AppModule).then(app=>{
+  app.list(8080)
+})
+```
+
 ## @notadd/cli
 > a simple tool to generate graphql for @nestjs/graphql
 
