@@ -1,6 +1,6 @@
 {
     "name": "@notadd/cli",
-    "version": "1.1.6",
+    "version": "1.1.11",
     "description": "> TODO: description",
     "author": "imeepos <1037483576@qq.com>",
     "homepage": "https://github.com/notadd/notadd-cli#readme",
@@ -32,14 +32,14 @@
         "url": "https://github.com/notadd/notadd-cli/issues"
     },
     "dependencies": {
-        "@nger/ast.ts-graphql": "^1.1.28",
+        "@nger/ast.ts-graphql": "^1.2.29",
         "@nger/cli": "^1.1.10",
-        "@nger/core": "^1.9.31",
-        "@nger/webpack": "^0.0.20",
+        "@nger/core": "^1.9.34",
+        "@nger/webpack": "^0.0.23",
         "fs-extra": "^8.1.0"
     },
     "devDependencies": {
         "@types/fs-extra": "^8.0.1",
-        "@types/webpack": "^4.41.1"
+        "@types/webpack": "^4.41.2"
     }
 }
