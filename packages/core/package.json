@@ -1,45 +1,49 @@
 {
-    "name": "@notadd/cli",
-    "version": "1.1.11",
-    "description": "> TODO: description",
-    "author": "imeepos <1037483576@qq.com>",
-    "homepage": "https://github.com/notadd/notadd-cli#readme",
-    "license": "ISC",
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
-    "bin": {
-        "notadd": "lib/bin.js"
-    },
-    "directories": {
-        "lib": "lib",
-        "test": "__tests__"
-    },
-    "files": [
-        "lib"
-    ],
-    "publishConfig": {
-        "registry": "http://registry.npmjs.org",
-        "access": "public"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/notadd/notadd-cli.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
-    },
-    "bugs": {
-        "url": "https://github.com/notadd/notadd-cli/issues"
-    },
-    "dependencies": {
-        "@nger/ast.ts-graphql": "^1.2.31",
-        "@nger/cli": "^1.1.10",
-        "@nger/core": "^1.9.34",
-        "@nger/webpack": "^0.0.23",
-        "fs-extra": "^8.1.0"
-    },
-    "devDependencies": {
-        "@types/fs-extra": "^8.0.1",
-        "@types/webpack": "^4.41.2"
-    }
+  "name": "@notadd/cli",
+  "version": "1.1.11",
+  "description": "> TODO: description",
+  "author": "imeepos <1037483576@qq.com>",
+  "homepage": "https://github.com/notadd/notadd-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "notadd": "lib/bin.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notadd/notadd-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "bugs": {
+    "url": "https://github.com/notadd/notadd-cli/issues"
+  },
+  "dependencies": {
+    "@nger/ast.ts-graphql": "^1.2.31",
+    "@nger/cli": "^1.1.10",
+    "@nger/core": "^1.9.34",
+    "@nger/webpack": "^0.0.23",
+    "fs-extra": "^8.1.0",
+    "snyk": "^1.316.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/webpack": "^4.41.2"
+  },
+  "snyk": true
 }
