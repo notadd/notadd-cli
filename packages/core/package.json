@@ -35,7 +35,7 @@
         "@nger/ast.ts-graphql": "^1.2.31",
         "@nger/cli": "^1.1.10",
         "@nger/core": "^1.9.34",
-        "@nger/webpack": "^0.0.23",
+        "@nger/webpack": "^1.0.1",
         "fs-extra": "^8.1.0"
     },
     "devDependencies": {
